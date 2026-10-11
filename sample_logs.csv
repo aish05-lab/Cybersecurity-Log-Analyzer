@@ -1,0 +1,22 @@
+
+timestamp,ip,username,event,details
+2026-10-11 09:00:00,192.168.1.10,alice,LOGIN_SUCCESS,Normal login
+2026-10-11 09:01:00,192.168.1.11,bob,LOGIN_SUCCESS,Normal login
+2026-10-11 09:02:00,203.0.113.50,admin,LOGIN_FAILED,Invalid password
+2026-10-11 09:03:00,203.0.113.50,admin,LOGIN_FAILED,Invalid password
+2026-10-11 09:04:00,203.0.113.50,admin,LOGIN_FAILED,Invalid password
+2026-10-11 09:05:00,203.0.113.50,admin,LOGIN_FAILED,Invalid password
+2026-10-11 09:06:00,203.0.113.50,admin,LOGIN_FAILED,Invalid password
+2026-10-11 09:07:00,203.0.113.50,admin,LOGIN_SUCCESS,Login succeeded after failures
+2026-10-11 09:08:00,192.168.1.10,alice,LOGIN_SUCCESS,Normal login
+2026-10-11 09:09:00,198.51.100.24,root,LOGIN_FAILED,Invalid password
+2026-10-11 09:10:00,198.51.100.24,root,LOGIN_FAILED,Invalid password
+2026-10-11 09:11:00,198.51.100.24,root,LOGIN_FAILED,Invalid password
+2026-10-11 09:12:00,192.168.1.12,charlie,LOGIN_SUCCESS,Normal login
+2026-10-11 09:13:00,203.0.113.70,test,LOGIN_FAILED,Invalid password
+2026-10-11 09:14:00,203.0.113.70,test,LOGIN_FAILED,Invalid password
+2026-10-11 09:15:00,192.168.1.11,bob,LOGIN_SUCCESS,Normal login
+2026-10-11 09:16:00,203.0.113.50,admin,LOGIN_FAILED,Invalid password
+2026-10-11 09:17:00,203.0.113.50,admin,LOGIN_FAILED,Invalid password
+2026-10-11 09:18:00,192.168.1.12,charlie,LOGIN_SUCCESS,Normal login
+2026-10-11 09:19:00,198.51.100.24,root,LOGIN_FAILED,Invalid password
